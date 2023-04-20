@@ -6,7 +6,7 @@ const data = [
   { day: 'Tuesday', percentage: 25 },
   { day: 'Wednesday', percentage: 75 },
   { day: 'Thursday', percentage: 40 },
-  { day: 'Friday', percentage: 90 }
+  { day: 'Friday', percentage: 80 }
 ];
 
 function App() {
