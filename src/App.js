@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import BarChart from './Barchart';
+const data = [
+  { day: 'Monday', percentage: 50 },
+  { day: 'Tuesday', percentage: 25 },
+  { day: 'Wednesday', percentage: 75 },
+  { day: 'Thursday', percentage: 40 },
+  { day: 'Friday', percentage: 90 }
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BarChart data={data} />
     </div>
   );
 }
-
 export default App;
